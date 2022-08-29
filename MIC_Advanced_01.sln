@@ -11,13 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Constructor", "02_Constr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_this", "03_this\03_this.csproj", "{F5ED0E14-2B1D-48E2-A47C-9E03FFF1E037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Factorial", "01_Factorial\01_Factorial.csproj", "{95108C9E-BDAD-4B73-9253-B28996A7B327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Factorial", "01_Factorial\01_Factorial.csproj", "{95108C9E-BDAD-4B73-9253-B28996A7B327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_withNew", "04_withNew\04_withNew.csproj", "{7CE2BB04-E08B-455A-AEA3-06D13A3D8591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_withNew", "04_withNew\04_withNew.csproj", "{7CE2BB04-E08B-455A-AEA3-06D13A3D8591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humon", "Humon\Humon.csproj", "{C7B54A1B-54D6-43BB-88A0-1FD019F4BF1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Humon", "Humon\Humon.csproj", "{C7B54A1B-54D6-43BB-88A0-1FD019F4BF1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifieryTest", "AccessModifieryTest\AccessModifieryTest.csproj", "{5F7A6526-F51D-4DED-A12A-6E722EF7110D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifieryTest", "AccessModifieryTest\AccessModifieryTest.csproj", "{5F7A6526-F51D-4DED-A12A-6E722EF7110D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGetKey", "ConsoleGetKey\ConsoleGetKey.csproj", "{0E252E13-DF17-4E0F-86F6-872A09BD12D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_BoxingUnboxing_Byte", "05_BoxingUnboxing_Byte\05_BoxingUnboxing_Byte.csproj", "{FB996DF7-1903-4B98-AA2E-821530ADB724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_BoxingUnboxing", "06_BoxingUnboxing\06_BoxingUnboxing.csproj", "{FE9B7DED-BC8B-4897-8C98-3A755BED3A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_BoxingUnboxingTest", "06_BoxingUnboxingTest\06_BoxingUnboxingTest.csproj", "{A2B16B5C-1914-4026-A129-E7CFA0DB828C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{5F7A6526-F51D-4DED-A12A-6E722EF7110D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F7A6526-F51D-4DED-A12A-6E722EF7110D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F7A6526-F51D-4DED-A12A-6E722EF7110D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E252E13-DF17-4E0F-86F6-872A09BD12D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E252E13-DF17-4E0F-86F6-872A09BD12D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E252E13-DF17-4E0F-86F6-872A09BD12D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E252E13-DF17-4E0F-86F6-872A09BD12D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB996DF7-1903-4B98-AA2E-821530ADB724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB996DF7-1903-4B98-AA2E-821530ADB724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB996DF7-1903-4B98-AA2E-821530ADB724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB996DF7-1903-4B98-AA2E-821530ADB724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9B7DED-BC8B-4897-8C98-3A755BED3A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9B7DED-BC8B-4897-8C98-3A755BED3A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9B7DED-BC8B-4897-8C98-3A755BED3A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9B7DED-BC8B-4897-8C98-3A755BED3A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B16B5C-1914-4026-A129-E7CFA0DB828C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B16B5C-1914-4026-A129-E7CFA0DB828C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B16B5C-1914-4026-A129-E7CFA0DB828C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B16B5C-1914-4026-A129-E7CFA0DB828C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
