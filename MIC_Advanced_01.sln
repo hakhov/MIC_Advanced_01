@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Methods", "01_Methods\01_Methods.csproj", "{EE3E2DA7-121A-4D0F-89DA-82FA333EBC0E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Class_Object", "01_Class_Object\01_Class_Object.csproj", "{0AD5A72E-5F62-4537-8D23-3E0E97115F71}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Constructor", "02_Constructor\02_Constructor.csproj", "{1221E0F4-AD2E-4D6E-93F7-985470330829}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_this", "03_this\03_this.csproj", "{F5ED0E14-2B1D-48E2-A47C-9E03FFF1E037}"
@@ -71,15 +67,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Interface", "05_Interfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Interface", "06_Interface\06_Interface.csproj", "{242115A9-06D3-4FA7-9247-D745F0B7702D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Object", "01_Object\01_Object.csproj", "{EF1B0909-3D2E-43A2-8EA3-008D0B432278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Object", "01_Object\01_Object.csproj", "{EF1B0909-3D2E-43A2-8EA3-008D0B432278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{BBE1EAC5-C9D3-43F9-9958-7F4A37881D7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{BBE1EAC5-C9D3-43F9-9958-7F4A37881D7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Object", "02_Object\02_Object.csproj", "{1EF0D424-0A28-4A6B-93DF-8430B68A6216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Object", "02_Object\02_Object.csproj", "{1EF0D424-0A28-4A6B-93DF-8430B68A6216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Indexer", "01_Indexer\01_Indexer.csproj", "{FDCA5B10-4F6A-4993-A051-77F8E00A5424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Indexer", "01_Indexer\01_Indexer.csproj", "{FDCA5B10-4F6A-4993-A051-77F8E00A5424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Indexer", "02_Indexer\02_Indexer.csproj", "{4EE2EE1A-54FB-4D74-8D6A-2407EC55C65E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Indexer", "02_Indexer\02_Indexer.csproj", "{4EE2EE1A-54FB-4D74-8D6A-2407EC55C65E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Indexer", "03_Indexer\03_Indexer.csproj", "{42D4BF62-4573-46A4-84E4-955BA7DEA806}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,14 +85,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE3E2DA7-121A-4D0F-89DA-82FA333EBC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE3E2DA7-121A-4D0F-89DA-82FA333EBC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE3E2DA7-121A-4D0F-89DA-82FA333EBC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE3E2DA7-121A-4D0F-89DA-82FA333EBC0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AD5A72E-5F62-4537-8D23-3E0E97115F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AD5A72E-5F62-4537-8D23-3E0E97115F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AD5A72E-5F62-4537-8D23-3E0E97115F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AD5A72E-5F62-4537-8D23-3E0E97115F71}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1221E0F4-AD2E-4D6E-93F7-985470330829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1221E0F4-AD2E-4D6E-93F7-985470330829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1221E0F4-AD2E-4D6E-93F7-985470330829}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -243,6 +233,10 @@ Global
 		{4EE2EE1A-54FB-4D74-8D6A-2407EC55C65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EE2EE1A-54FB-4D74-8D6A-2407EC55C65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EE2EE1A-54FB-4D74-8D6A-2407EC55C65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D4BF62-4573-46A4-84E4-955BA7DEA806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D4BF62-4573-46A4-84E4-955BA7DEA806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D4BF62-4573-46A4-84E4-955BA7DEA806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D4BF62-4573-46A4-84E4-955BA7DEA806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
