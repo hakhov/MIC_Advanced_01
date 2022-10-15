@@ -87,15 +87,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcForm", "CalcForm\CalcFo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Extention", "01_Extention\01_Extention.csproj", "{EEAEA1C6-F49D-4A56-8212-D78BB8E2A45F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempletePattern", "TempletePattern\TempletePattern.csproj", "{B2DC011F-49C3-4C95-A628-7D7730B817A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempletePattern", "TempletePattern\TempletePattern.csproj", "{B2DC011F-49C3-4C95-A628-7D7730B817A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_StratagyPatern", "StratagyPatern\01_StratagyPatern.csproj", "{A19403D8-7D90-4C41-88BC-9D76FBE8661D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_StratagyPatern", "StratagyPatern\01_StratagyPatern.csproj", "{A19403D8-7D90-4C41-88BC-9D76FBE8661D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_StratagyPAtern", "02_StratagyPAtern\02_StratagyPAtern.csproj", "{5A3D1CAF-FE5F-4249-BEFB-42A4B5160F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_StratagyPAtern", "02_StratagyPAtern\02_StratagyPAtern.csproj", "{5A3D1CAF-FE5F-4249-BEFB-42A4B5160F07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_IEnumerable", "01_IEnumerable\01_IEnumerable.csproj", "{5F325C11-5507-4E48-B85D-AB7B458ED7CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_IEnumerable", "01_IEnumerable\01_IEnumerable.csproj", "{5F325C11-5507-4E48-B85D-AB7B458ED7CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_WithoutForeach", "03_WithoutForeach\03_WithoutForeach.csproj", "{09F9096D-82B8-4B2D-910E-1419119F24C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_WithoutForeach", "03_WithoutForeach\03_WithoutForeach.csproj", "{09F9096D-82B8-4B2D-910E-1419119F24C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICompareable", "ICompareable\ICompareable.csproj", "{7D170E6B-A552-4BE7-AF89-CF5D15D577DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IClonable", "IClonable\IClonable.csproj", "{DC600F99-86F4-417C-BC35-65808CE29242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldIterator", "YieldIterator\YieldIterator.csproj", "{CEC084C7-23EC-4978-AF76-050DAFBC03FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +297,18 @@ Global
 		{09F9096D-82B8-4B2D-910E-1419119F24C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09F9096D-82B8-4B2D-910E-1419119F24C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09F9096D-82B8-4B2D-910E-1419119F24C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D170E6B-A552-4BE7-AF89-CF5D15D577DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D170E6B-A552-4BE7-AF89-CF5D15D577DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D170E6B-A552-4BE7-AF89-CF5D15D577DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D170E6B-A552-4BE7-AF89-CF5D15D577DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC600F99-86F4-417C-BC35-65808CE29242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC600F99-86F4-417C-BC35-65808CE29242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC600F99-86F4-417C-BC35-65808CE29242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC600F99-86F4-417C-BC35-65808CE29242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC084C7-23EC-4978-AF76-050DAFBC03FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC084C7-23EC-4978-AF76-050DAFBC03FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC084C7-23EC-4978-AF76-050DAFBC03FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC084C7-23EC-4978-AF76-050DAFBC03FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
