@@ -1,4 +1,4 @@
-﻿using OperatorOverloads;
+﻿using _02_OperatorOverloading;
 
 Point2D point1 = new(5, 6);
 Point2D point2 = new(1, -3);

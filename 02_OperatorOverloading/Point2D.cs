@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OperatorOverloads
+namespace _02_OperatorOverloading
 {
     public class Point2D
     {
@@ -95,7 +95,7 @@ namespace OperatorOverloads
 
         public static bool operator !(Point2D point)
         {
-            if (point) 
+            if (point)
                 return false;
             else
                 return true;

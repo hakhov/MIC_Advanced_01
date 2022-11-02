@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_Class_Object
+namespace _02_Constructor
 {
     internal class Student
     {

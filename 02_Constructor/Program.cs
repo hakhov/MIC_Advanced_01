@@ -1,4 +1,4 @@
-﻿using _01_Class_Object;
+﻿using _02_Constructor;
 
 Student student = new();
 Student student1 = new("Tom", 45);
