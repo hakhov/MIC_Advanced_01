@@ -119,19 +119,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_AnonimusMethods", "05_An
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_AnonimusMethodsExample", "06_AnonimusMethodsExample\06_AnonimusMethodsExample.csproj", "{AF775401-0441-4149-BC33-2F1EFF283D7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_AnanimusMethodWithDelegate", "07_AnanimusMethodWithDelegate\07_AnanimusMethodWithDelegate.csproj", "{0D58C82B-0E35-4BDB-9C72-D2F9ADAAABCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_AnanimusMethodWithDelegate", "07_AnanimusMethodWithDelegate\07_AnanimusMethodWithDelegate.csproj", "{0D58C82B-0E35-4BDB-9C72-D2F9ADAAABCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_RafOutOnDelegateParameter", "ConsoleApp3\08_RafOutOnDelegateParameter.csproj", "{885E9307-9323-4B13-B641-FE1AE142C52E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_RafOutOnDelegateParameter", "ConsoleApp3\08_RafOutOnDelegateParameter.csproj", "{885E9307-9323-4B13-B641-FE1AE142C52E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_DelegateAsReturnType", "09_DelegateAsReturnType\09_DelegateAsReturnType.csproj", "{D0B2D088-D04B-4B1C-BAF8-FBEB854B5094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_DelegateAsReturnType", "09_DelegateAsReturnType\09_DelegateAsReturnType.csproj", "{D0B2D088-D04B-4B1C-BAF8-FBEB854B5094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Lambda", "01_Lambda\01_Lambda.csproj", "{B64D6EED-DC6D-4D3D-9F45-4639D3B8D2AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Lambda", "01_Lambda\01_Lambda.csproj", "{B64D6EED-DC6D-4D3D-9F45-4639D3B8D2AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_LambdaintheSwich", "10_LambdaintheSwich\10_LambdaintheSwich.csproj", "{259A5269-E552-40BC-A30D-86338CF006C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_LambdaintheSwich", "10_LambdaintheSwich\10_LambdaintheSwich.csproj", "{259A5269-E552-40BC-A30D-86338CF006C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_LambdaWithRef", "11_LambdaWithRef\11_LambdaWithRef.csproj", "{7D2D530A-2BF1-4879-9AEA-47893631DDD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_LambdaWithRef", "11_LambdaWithRef\11_LambdaWithRef.csproj", "{7D2D530A-2BF1-4879-9AEA-47893631DDD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_LambdaWIthMethod", "12_LambdaWIthMethod\12_LambdaWIthMethod.csproj", "{5A958EA7-B124-4225-8CB4-4BD5DA09746D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_LambdaWIthMethod", "12_LambdaWIthMethod\12_LambdaWIthMethod.csproj", "{5A958EA7-B124-4225-8CB4-4BD5DA09746D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_TicTac", "01_TicTac\01_TicTac.csproj", "{6C80DCA8-FD28-45E2-9CCE-13197781FD95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -399,6 +401,10 @@ Global
 		{5A958EA7-B124-4225-8CB4-4BD5DA09746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A958EA7-B124-4225-8CB4-4BD5DA09746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A958EA7-B124-4225-8CB4-4BD5DA09746D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C80DCA8-FD28-45E2-9CCE-13197781FD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C80DCA8-FD28-45E2-9CCE-13197781FD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C80DCA8-FD28-45E2-9CCE-13197781FD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C80DCA8-FD28-45E2-9CCE-13197781FD95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
