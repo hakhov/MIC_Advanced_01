@@ -131,6 +131,7 @@ namespace _01_TicTac
 
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
             StartNewGame();
             lbXWinner.Text = "0";
             lbOWinner.Text = "0";
@@ -154,7 +155,7 @@ namespace _01_TicTac
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.
+            //axWindowsMediaPlayer1.
         }
 
 
@@ -162,7 +163,7 @@ namespace _01_TicTac
         {
             if (isWinner)
             {
-                axWindowsMediaPlayer1.URL();
+                //axWindowsMediaPlayer1.URL();
                 timer1.Start();
                 Task.Delay(3000);
                 timer1.Stop();
