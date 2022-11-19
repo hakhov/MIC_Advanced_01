@@ -143,19 +143,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Part1Event", "01_Part1Ev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Action, Func", "Action, Func\Action, Func.csproj", "{C69F0836-B2D1-4A76-A07E-BF88C03589C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_trytryTrow", "01_trytryTrow\01_trytryTrow.csproj", "{68E1BC21-CEA8-4E49-8553-70B3563BDDEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_trytryTrow", "01_trytryTrow\01_trytryTrow.csproj", "{68E1BC21-CEA8-4E49-8553-70B3563BDDEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_MyException", "02_MyException\02_MyException.csproj", "{984FCBE7-96B9-489D-A45D-082594470F5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_MyException", "02_MyException\02_MyException.csproj", "{984FCBE7-96B9-489D-A45D-082594470F5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CompositionANDAggregation", "01_Composition\01_CompositionANDAggregation.csproj", "{78469225-9BC6-4ACA-8EDB-671FE9DBD9AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_CompositionANDAggregation", "01_Composition\01_CompositionANDAggregation.csproj", "{78469225-9BC6-4ACA-8EDB-671FE9DBD9AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_RecordType", "01_RecordType\01_RecordType.csproj", "{7C1CD719-83E1-4287-B2B7-17776E41AABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_RecordType", "01_RecordType\01_RecordType.csproj", "{7C1CD719-83E1-4287-B2B7-17776E41AABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Generaic", "01_Generaic\01_Generaic.csproj", "{8646EFD0-AC9F-4E19-8205-9C70E3C7306A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Generaic", "01_Generaic\01_Generaic.csproj", "{8646EFD0-AC9F-4E19-8205-9C70E3C7306A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Generic", "02_Generic\02_Generic.csproj", "{ED100960-EFE5-485F-9F0C-520F9E509714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Generic", "02_Generic\02_Generic.csproj", "{ED100960-EFE5-485F-9F0C-520F9E509714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Generic", "03_Generic\03_Generic.csproj", "{EFDE7ABD-264D-45D2-93DA-35AA912CE715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Generic", "03_Generic\03_Generic.csproj", "{EFDE7ABD-264D-45D2-93DA-35AA912CE715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DataStructure", "01_DataStructure\01_DataStructure.csproj", "{BC810A6F-B4ED-41AC-A483-40B78697B50E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +473,10 @@ Global
 		{EFDE7ABD-264D-45D2-93DA-35AA912CE715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDE7ABD-264D-45D2-93DA-35AA912CE715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDE7ABD-264D-45D2-93DA-35AA912CE715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC810A6F-B4ED-41AC-A483-40B78697B50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC810A6F-B4ED-41AC-A483-40B78697B50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC810A6F-B4ED-41AC-A483-40B78697B50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC810A6F-B4ED-41AC-A483-40B78697B50E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
