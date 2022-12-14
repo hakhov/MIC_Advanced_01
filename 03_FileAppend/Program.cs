@@ -5,10 +5,10 @@ FileInfo fileInfo = new FileInfo(path);
 
 if (fileInfo.Exists)
 {
-    Console.WriteLine($"Name: - {fileInfo.Name}");
-    Console.WriteLine($"FullName: - {fileInfo.FullName}");
-    Console.WriteLine($"CreationTime: - {fileInfo.CreationTime}");
-    Console.WriteLine($"Length: - {fileInfo.Length}");
+  Console.WriteLine($"Name: - {fileInfo.Name}");
+  Console.WriteLine($"FullName: - {fileInfo.FullName}");
+  Console.WriteLine($"CreationTime: - {fileInfo.CreationTime}");
+  Console.WriteLine($"Length: - {fileInfo.Length}");
 }
 
 string txt = "Hello this is our first line.\r\n" +
@@ -17,10 +17,12 @@ string txt = "Hello this is our first line.\r\n" +
 
 try
 {
-    File.AppendAllLines(path, txt.Split(Environment.NewLine.ToCharArray()).ToList<string>());
-    Console.WriteLine($"Record on the {path} is successed");
+  //File.AppendAllLines(path, txt.Split(Environment.NewLine.ToCharArray()).ToList<string>());
+  //File.AppendAllText(path, txt);
+  File.WriteAllText( path, txt );
+  Console.WriteLine($"Record on the {path} is successed");
 }
 catch (Exception ex)
 {
-    Console.WriteLine(ex.Message);
+  Console.WriteLine(ex.Message);
 }
